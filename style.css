@@ -1,7 +1,9 @@
 body {
-background-color: #bf9bde;
+background-color: #bd9bde;
 }
 .refer{
-  color: light gray;
+  color:gray;
 }
-
+#bsg{
+  color:blue;
+}
