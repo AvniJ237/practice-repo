@@ -1,0 +1,32 @@
+body {
+background-color: #44377d;
+text-align:center;
+}
+.refer{
+  color:gray;
+  font-size:8px;
+}
+#bsg{
+  color:#80a0d4;
+  font-size: 22px;
+}
+#snake{
+  color:#E2B051;
+ font-size: 22px;
+}
+.creature{
+background-color:White;
+border-radius:10px;
+border-style: dashed;
+border-color:#6E4D9B;
+padding: 20px; 
+margin: 10px 0 10px 0;
+
+}
+
+h1{
+color:#B9A023;
+}
+p{
+margin: 2px 0 2px 0;
+}
