@@ -7,5 +7,16 @@ font-weight:bold;
 body{
 text-align:center;
 }
-
-
+#creature{
+color: #7C4DFF;
+text-shadow: 0 0 10px rgba(124, 77, 255, 0.3);
+}
+#color{
+ color:  #a1c4fd ;
+text-shadow: 0 0 10px rgba(124, 77, 255, 0.3);
+}
+div{
+padding:15px;
+border-color:#fff;
+gap:10px;
+}
