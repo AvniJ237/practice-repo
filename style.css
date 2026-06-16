@@ -1,22 +1,39 @@
 a, a:visited{
- font-size: 22px;
+font-size: 60px;
 text-decoration:none;
 font-family:trebuchet MS;
 font-weight:bold;
 }
 body{
-text-align:center;
+background: linear-gradient(#deeff0, #6d4e9B);
 }
 #creature{
 color: #7C4DFF;
-text-shadow: 0 0 10px rgba(124, 77, 255, 0.3);
+text-shadow: 5px 1px 15px #4A148C40;
+font-family: Georgia, serif;
+-webkit-text-stroke: 1px #5e35b1;
 }
 #color{
- color:  #a1c4fd ;
-text-shadow: 0 0 10px rgba(124, 77, 255, 0.3);
+background: linear-gradient(
+  90deg,
+  #ff9aa2,
+  #ffdac1,
+  #e2f0cb,
+  #b5ead7,
+  #c7ceea
+);
+-webkit-background-clip: text;
+color: transparent;
+text-shadow: 5px 1px 13px #fafafa89;
+-webkit-text-stroke: 1.5px black;
 }
 div{
-padding:15px;
-border-color:#fff;
-gap:10px;
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+gap:25px;
+
+
 }
