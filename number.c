@@ -1,18 +1,16 @@
 #include<stdio.h>
 int main ()
-{int choice,num,div,rev=0,i,count=0;
-printf("Enter 1 to find whether a number is divisible by a certain number,\n 2 to find reverse of the number\n 3 to find factors of a number and\n 4 for overview of number 0 to exit");
+{int choice,num,div,rev=0,i,count=0,multi=1;
+printf("Enter 1 to find whether a number is divisible by a certain number,\n 2 to find reverse of the number\n 3 to find factors of a number \n 4 for overview of number\n 5 to find product and sum of digits of number\n 6 to find whether the number is perfect number or not and\n 0 to exit");
 scanf("%d",&choice);
 switch(choice)
    { case 1:printf("enter the number and the number to checks its divisiblity with");
         scanf("%d %d",&num, &div);
         if(div!=0)
         {if(num%div==0)
-            {printf("divisible");
-          }
-           else
-             {printf("not divisible");}
-        }
+        {printf("divisible");}
+        else
+        {printf("not divisible");}}
         else
         {printf("Did you really type zero?");}
          break;
@@ -55,6 +53,26 @@ switch(choice)
            {printf("one isnt prime or composite\n");}
            else 
            {printf("Prime Number\n");}
+           break;
+    case 5:printf("enter the number ");
+           scanf("%d",&num);
+           do
+           {count+=num%10;
+           multi*=num%10;
+           num=num/10;}
+           while(num!=0);
+           printf("product is %d\n",multi);
+           printf("sum is %d",count);
+           break;
+    case 6:printf("enter the number ");
+           scanf("%d",&num);
+           for(i=1; i<num; i++)
+           {if(num % i == 0)
+           { count+=i;}}
+           if (count==num)
+           {printf("perfect number");}
+           else
+           {printf("not a perfect number");}
            break;
     case 0:printf("exiting...");
           break;
