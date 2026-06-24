@@ -15,9 +15,15 @@ elif operator == "/":
 elif operator == "^":
     print("Result:", a ** b)
 elif operator == "//":
-    print("Result:", a // b)
+    if b!= 0:
+        print("Result:", a // b)
+    else:
+        print("cant divide with zero")
 elif operator == "%":
-    print("Result:", a % b)
+   if b!= 0:
+        print("Result:", a % b)
+    else:
+        print("cant divide with zero")
 else:
     print("Invalid operator")
 
