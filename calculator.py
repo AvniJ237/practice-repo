@@ -1,5 +1,5 @@
 a = float(input("Enter first number: "))
-operator = input("Enter operator (+, -, *, /): ")
+operator = input("Enter operator (+, -, *, /,^,//,%): ")
 b = float(input("Enter second number: "))
 if operator == "+":
     print("Result:", a + b)
@@ -12,6 +12,12 @@ elif operator == "/":
         print("Result:", a / b)
     else:
         print("cant divide with zero")
+elif operator == "^":
+    print("Result:", a ** b)
+elif operator == "//":
+    print("Result:", a // b)
+elif operator == "%":
+    print("Result:", a % b)
 else:
     print("Invalid operator")
 
