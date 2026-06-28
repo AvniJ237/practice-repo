@@ -1,0 +1,14 @@
+a, a:visited{
+font-size: 60px;
+text-decoration:none;
+font-family:trebuchet MS;
+font-weight:bold;
+}
+div{
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+gap:25px;
+}
