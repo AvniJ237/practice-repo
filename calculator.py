@@ -15,9 +15,9 @@ operator = input("""Enter 1 to find sum
 14 to find factorial
 15 to find exponent power""")
 if operator != "14":
-   a = float(input("Enter first number: "))
+    a = float(input("Enter first number: "))
 else:
-   a = int(input("Enter first number: "))   
+    a = int(input("Enter first number: "))
 if operator in ["1","2","3","4","5","6","7"]:
     b = float(input("Enter second number: "))
 if operator == "1":
@@ -39,9 +39,9 @@ elif operator == "6":
     else:
         print("cant divide with zero")
 elif operator == "7":
-   if b!= 0:
+    if b!= 0:
         print("Result:", a % b)
-   else:
+    else:
         print("cant divide with zero")
 elif operator == "8":
     print("Result:", math.cos(a))
